@@ -8,46 +8,11 @@ import {
   Entypo,
   FontAwesome,
 } from "@expo/vector-icons";
-
-function Dashboard() {
-  return (
-    <View style={styles.contentContainer}>
-      <Text style={styles.text}>Dashboard!</Text>
-    </View>
-  );
-}
-
-function Favorites() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Favorites!</Text>
-    </View>
-  );
-}
-
-function Calendar() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Calendar!</Text>
-    </View>
-  );
-}
-
-function Search() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Search!</Text>
-    </View>
-  );
-}
-
-function Profile() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Profile!</Text>
-    </View>
-  );
-}
+import Dashboard from "../Dashboard";
+import Favorites from "../Favorites";
+import Calendar from "../Calendar";
+import Search from "../Search";
+import Profile from "../Profile";
 
 const Tab = createMaterialBottomTabNavigator();
 
