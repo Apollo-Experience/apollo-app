@@ -9,12 +9,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#121212",
-  },
-  text: {
-    color: "#424242",
-    fontSize: 16,
-    fontWeight: "600",
   },
   version: {
     color: "#424242",
