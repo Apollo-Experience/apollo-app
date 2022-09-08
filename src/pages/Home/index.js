@@ -1,7 +1,5 @@
 import * as React from "react";
-import { View, Text } from "react-native";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
-import styles from "./style.js";
 import {
   MaterialCommunityIcons,
   AntDesign,
@@ -24,7 +22,7 @@ function Guias() {
       inactiveColor="#989898"
       labeled={false}
       shifting={true}
-      barStyle={{ backgroundColor: "#121212" }}
+      barStyle={{ backgroundColor: "#100E0E" }}
     >
       <Tab.Screen
         name="Dashboard"

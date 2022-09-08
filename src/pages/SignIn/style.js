@@ -1,9 +1,10 @@
 import { StyleSheet } from "react-native";
+import AppStyles from "../../assets/AppStyles";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#121212",
+    backgroundColor: AppStyles.colors.background_principal,
   },
   contentContainer: {
     flex: 1,
@@ -11,7 +12,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   version: {
-    color: "#424242",
+    color: AppStyles.colors.text_version,
     fontSize: 16,
     fontWeight: "600",
     textAlign: "right",
@@ -34,7 +35,7 @@ const styles = StyleSheet.create({
     marginRight: 12,
   },
   fbLabel: {
-    color: "#FFF",
+    color: AppStyles.colors.fonts,
     fontSize: 20,
     fontWeight: "700",
     flexDirection: "row",
@@ -53,7 +54,7 @@ const styles = StyleSheet.create({
   },
   GoogleLabel: {
     marginLeft: 12,
-    color: "#4F4949",
+    color: AppStyles.colors.text_version,
     fontSize: 20,
     fontWeight: "700",
     flexDirection: "row",

@@ -1,19 +1,31 @@
 import { StyleSheet } from "react-native";
+import AppStyles from "../../assets/AppStyles";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#121212",
   },
   contentContainer: {
+    backgroundColor: AppStyles.colors.background_principal,
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
   },
   text: {
-    color: "#424242",
+    color: AppStyles.colors.fonts,
     fontSize: 16,
     fontWeight: "600",
+  },
+  titles: {
+    color: AppStyles.colors.titles,
+    fontSize: 26,
+    fontFamily: "Roboto",
+    fontWeight: "900",
+    textAlign: "left",
+    marginTop: 55,
+    marginLeft: 35,
+  },
+  content: {
+    paddingTop: 15,
+    padding: 25,
   },
   footer: {
     height: 50,

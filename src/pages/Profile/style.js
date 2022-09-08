@@ -1,9 +1,10 @@
 import { StyleSheet } from "react-native";
+import AppStyles from "../../assets/AppStyles";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#121212",
+    backgroundColor: AppStyles.colors.background_principal,
   },
   contentContainer: {
     flex: 1,
@@ -11,7 +12,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   text: {
-    color: "#424242",
+    color: AppStyles.colors.fonts,
     fontSize: 16,
     fontWeight: "600",
   },
