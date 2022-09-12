@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
   },
   content: {
     paddingTop: 15,
-    padding: 25,
   },
   footer: {
     height: 50,

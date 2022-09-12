@@ -33,7 +33,7 @@ function SignIn({ navigation }) {
         </TouchableOpacity>
       </View>
       <View style={styles.footer}>
-        <Text style={styles.version}>Versão: DEV-1.0.3</Text>
+        <Text style={styles.version}>Versão: DEV-1.0.4</Text>
       </View>
     </View>
   );
