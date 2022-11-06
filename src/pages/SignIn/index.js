@@ -3,12 +3,13 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import Logo from "../../assets/logo-apollo.svg";
 import GoogleLogo from "../../assets/google-icon.svg";
 import styles from "./style.js";
+import version from "../../../package.json";
 
 function SignIn({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.contentContainer}>
-        <Logo width={240} height={80} fill={"white"} />
+        <Logo width={480} height={160} fill={"white"} />
         <TouchableOpacity
           style={styles.fbButton}
           activeOpacity={0.8}
@@ -33,7 +34,7 @@ function SignIn({ navigation }) {
         </TouchableOpacity>
       </View>
       <View style={styles.footer}>
-        <Text style={styles.version}>Versão: DEV-1.0.4</Text>
+        <Text style={styles.version}>Versão: {version.version}</Text>
       </View>
     </View>
   );

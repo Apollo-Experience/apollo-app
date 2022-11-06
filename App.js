@@ -6,6 +6,7 @@ import Home from "./src/pages/Home";
 const Stack = createNativeStackNavigator();
 
 function App() {
+  console.disableYellowBox = true;
   return (
     <NavigationContainer>
       <Stack.Navigator
